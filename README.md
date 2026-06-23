@@ -2,10 +2,10 @@
 Projeto de testes manuais com cenários de teste e bug report
 
 # Projeto de Testes Manuais
-Este é meu primeiro projeto de QA.
+Este repositório apresenta um projeto de testes manuais desenvolvido durante meus estudos em Quality Assurance (QA), contemplando a criação de cenários de teste, casos de teste e registro de defeitos (Bug report).
 
 ## Objetivo
-Praticar a criação de cenários de teste e identificação de bugs.
+Aplicar conceitos fundamentais de testes de software,incluindo elaboração de casos de teste, execução de testes funcionais e documentação de defeitos encontrados durante a validação da aplicação.
 
 ## Funcionalidade testada
 Tela de Login
@@ -31,7 +31,7 @@ Resultado esperado:
 Sistema deve exibir mensagem de erro
 ---
 ## Bug encontrado
-### BUG001 - Erro ao logar com senha correta
+### BUG001 - Falha de autenticação com credenciais válidas
 Passos:
 1. Inserir email correto
 2. Inserir senha correta
@@ -41,4 +41,4 @@ Resultado esperado:
 Login realizado com sucesso
 
 Resultado atual:
-Sistema apresenta erro
+Ao informar credencias válidas e clicar em "Entrar", o sistema impede o acesso do usuário e exibe uma mensagem de erro indevidamente.
